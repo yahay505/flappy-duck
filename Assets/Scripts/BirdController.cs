@@ -20,7 +20,7 @@ public class BirdController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
             ShouldJump=true;
-            Debug.Log("hump");
+            Debug.Log("jump");
         }
     }
 
