@@ -21,7 +21,10 @@ public class PipeController : MonoBehaviour
     void Update()
     {
         transform.position += Vector3.left * ScroolSpeed * Time.deltaTime;
-
+        if (Bird==null)
+        {
+            Bird = BirdController.Bird.GetComponent<Collider2D>();
+        }
 
         if (scoreCollider.IsTouching(Bird))
         {
@@ -34,7 +37,7 @@ public class PipeController : MonoBehaviour
             DeathColliders[0].enabled = false;
             DeathColliders[1].enabled = false;
             DeathColliders[2].enabled = false;
-            //GameManager.Manager.Die();
+            GameManager.Manager.Die();
             Debug.Log("Death");
         }
 

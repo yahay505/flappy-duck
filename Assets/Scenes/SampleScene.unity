@@ -283,6 +283,7 @@ MonoBehaviour:
   PipeCount: 5
   PipeSpace: 5
   FirstPipeOffset: 2
+  PipeList: []
 --- !u!4 &1223026846
 Transform:
   m_ObjectHideFlags: 0
