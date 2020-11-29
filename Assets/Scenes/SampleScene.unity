@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PipeCount: 5
-  PipeSpace: 2
+  PipeSpace: 5
   FirstPipeOffset: 2
 --- !u!4 &1223026846
 Transform:
@@ -337,7 +337,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!114 &1292783129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,6 +555,10 @@ PrefabInstance:
     - target: {fileID: 2592287030513271396, guid: 8d84a75cf4e2ab94d8330b0fc6f50f45, type: 3}
       propertyPath: m_Name
       value: PipePrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2592287030513271396, guid: 8d84a75cf4e2ab94d8330b0fc6f50f45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2592287030513271397, guid: 8d84a75cf4e2ab94d8330b0fc6f50f45, type: 3}
       propertyPath: m_LocalPosition.x
