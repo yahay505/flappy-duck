@@ -379,7 +379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7588baf5e0ee14c44bee46b498a58192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScroolSpeed: 5.45
+  ScroolSpeed: 1
+  DeathX: -2
   scoreCollider: {fileID: 2592287030300269031}
   bird: {fileID: 0}
   DeathColliders:

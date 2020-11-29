@@ -8,15 +8,22 @@ public class BirdController : MonoBehaviour
     private Rigidbody2D rb2d;
     public Vector2 JumpForce,Gravity;
     public bool ShouldJump;
+    public static GameObject Bird;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        Bird = this.gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Bird == null)
+        {
+            Bird = this.gameObject;
+
+        }
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
             ShouldJump=true;
