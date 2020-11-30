@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2592287029147875536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.05, z: 0}
+  m_LocalPosition: {x: 0, y: 13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2592287030513271397}
@@ -55,7 +55,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 19.54, y: 1}
+  m_Size: {x: 0.4, y: 20}
   m_EdgeRadius: 0
 --- !u!1 &2592287029325693938
 GameObject:
@@ -379,10 +379,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7588baf5e0ee14c44bee46b498a58192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScroolSpeed: 1
-  DeathX: -2
+  ScroolSpeed: 3
+  DeathX: -20
   scoreCollider: {fileID: 2592287030300269031}
-  bird: {fileID: 0}
+  Bird: {fileID: 0}
   DeathColliders:
   - {fileID: 2592287029325693937}
   - {fileID: 2592287029593258092}

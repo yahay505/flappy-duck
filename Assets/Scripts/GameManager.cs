@@ -54,6 +54,8 @@ public class GameManager : MonoBehaviour
                 HighScore = Score;
             }
             Score = 0;
+            BirdController.Bird.transform.position = Vector3.zero;
+            BirdController.Bird.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
             Time.timeScale = 1;
         }
         Debug.Log(PipeList.Count);
