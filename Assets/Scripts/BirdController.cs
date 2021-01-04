@@ -58,8 +58,8 @@ public class BirdController : MonoBehaviour
     }
     private void ProcessHeading()
     {
-        Vector2 _test = new Vector2(PipeSpeed, rb2d.velocity.y);
-       float _angle = Vector2.Angle(Vector2.right, _test);
+        Vector2 _velocity = new Vector2(PipeSpeed, rb2d.velocity.y);
+       float _angle = Vector2.Angle(Vector2.right, _velocity);
         //Debug.Log(_test);
         if (rb2d.velocity.y>0)
         {

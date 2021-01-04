@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     {
         Score++;
         PipeList.Add(Spawner.spawner.SpawnPipe(FirstPipeOffset + PipeCount * PipeSpace));
-        //UpdateUI();
+
     }
     // Update is called once per frame
     public void Die()
